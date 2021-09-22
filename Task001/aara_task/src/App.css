@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+.input_radio{
+  height:50px;
+  width:80px; 
+  border-radius:10px;
+   background-color:#e1e6e5;
+   text-align:center;
+   line-height:45px;
+   margin: 0 10px;  
+}
+
+.poll1{
+  height: 20px; 
+  width: 40%;
+  background-color: green;
+   border-radius: 10px;
+   text-align: center;
+}
+.poll2{
+  height: 20px; 
+  width: 20%;
+  background-color: red;
+   border-radius: 10px;
+   text-align: center;
+}
+.poll3{
+  height: 20px; 
+  width: 40%;
+  background-color: lightgray;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.img1{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.img2{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+
+.form-control{
+  background-color: transparent;
+    border: 0px solid;
+}
+.setting_icon{
+ background-color: hsl(222, 30%, 92%);
+ margin-top: 5%;
+ padding-left: 3%;
+ padding-right: 1%;
+ margin-bottom: 12%;
+color: rgb(53, 53, 155);
+border-radius: 15%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.btn{
+  position:absolute; 
+  margin-left:-50px;
+  left:50%;
+  width:100px;
+  bottom:0px;
+  background-color: #e8e6df;
+  padding: 5px;
+  border-radius: 20px;
+}
+.conv_btn{
+  border: none;
+  background-color: rgb(221, 219, 213);
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 80px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
